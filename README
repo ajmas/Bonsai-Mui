@@ -1,15 +1,10 @@
 Bonsai-Mui
 
-This project is an attempt to create a HTPC client using only Web based technologies, such as
-HTML5, CSS3, WebGL and Javascript. The idea is to create a client side API that would asbtract
-the server side communication, and allow people to write custom user interfaces around it.
+This project is an attempt to create a HTPC client using only Web based technologies, such as HTML5, CSS3, WebGL and Javascript. The idea is to create a client side API that would asbtract the server side communication, and allow people to write custom user interfaces around it.
 
-We will eventually need to either create or 'partner' with a server side HTPC solution to provide
-the content, but we would like to keep this as a separate project and simply document the service
-interfaces that would be used.
+We will eventually need to either create or 'partner' with a server side HTPC solution to provide the content, but we would like to keep this as a separate project and simply document the service interfaces that would be used.
 
-At the current stage this project is in the research and development phase, whereby we are
-trying to establish the best design and approaches. 
+At the current stage this project is in the research and development phase, whereby we are trying to establish the best design and approaches. 
 
 Target devices:
   - Desktop connected to HD TV, using a remote
