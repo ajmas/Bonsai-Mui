@@ -1,0 +1,82 @@
+<html>
+<head>
+
+	<title>Zen Media UI</title>
+	
+	<script type="text/javascript" src="../shared/js/prototype.js"></script>
+	<script type="text/javascript" src="../shared/js/jquery.min.js"></script>
+	<script type="text/javascript" >
+	     var $j = jQuery.noConflict();
+	</script>
+	<Script type="text/javascript" src="../shared/js/jquery.dateFormat-1.0.js"></Script>
+	<Script type="text/javascript" src="../shared/js/date.format.js"></Script>
+	
+	<script type="text/javascript" src="../core/js/mediaLibrary.js"></script>
+	<script type="text/javascript" src="../shared/js/utils.js"></script>
+	<script type="text/javascript" src="js/layer.js"></script>  
+	<script type="text/javascript" src="js/layerRegistry.js"></script>
+	<script type="text/javascript" src="js/pluginLayer.js"></script>
+	<script type="text/javascript" src="js/webLayer.js"></script>        
+	<script type="text/javascript" src="js/audioLayer.js"></script>
+	<script type="text/javascript" src="js/videoLayer.js"></script>
+	<script type="text/javascript" src="js/flashLayer.js"></script>
+	<script type="text/javascript" src="js/backgroundLayer.js"></script> 
+	<script type="text/javascript" src="js/menuLayer.js"></script> 
+	<script type="text/javascript" src="js/main.js"></script> 
+	
+	<!-- http://kusanagi.local:8080/media/browse-json.jsp?path=/ -->
+	
+	<link rel="stylesheet" href="css/main.css">
+	
+	<style type="text/css">
+	
+	</style>
+	
+	<!-- 
+	<meta name="viewport" content="width=1920; initial-scale=0.5; maximum-scale=1.0; user-scalable=0;"/>
+	 -->
+	
+</head>
+
+<body id="body">
+
+    <div class="layers">
+	     
+	    <div class="menu layer">
+            <div class="layerBack">
+				<div id="timeDiv"></div>
+				
+				<div id="path"></div>
+			
+			    <div id="title" style="margin: auto auto; text-align: left; font-size: 150px; color: black; margin-left: 80px"></div>
+				
+				<div id="file-list" class="file-list view-box">
+					<div id="file-list-scroll" class="view-box"></div>
+				</div>
+			
+				<div id="file-list-background" class="file-list view-box"></div>
+			
+			
+			    <div class="previewZone">
+					<div id="preview" class="preview view-box">
+						<div id="previewImage"></div>
+						<div id="info"></div>
+					</div>
+				
+					<div id="preview-background" class="preview view-box"></div>		
+				</div>
+		    </div>	    
+	    </div>
+	    
+    </div>
+    
+    <!-- 
+	<div id="weather-forecast">
+		<span class="location">Montreal</span> <span class="temperature">10¡</span>
+		<span class="behaviour">Cloudy</span>
+	</div>
+ -->
+	
+
+</body>
+</html>

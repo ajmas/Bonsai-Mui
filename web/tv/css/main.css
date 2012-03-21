@@ -1,0 +1,205 @@
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Ubuntu;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	color: white;
+}
+
+#file-list ul {
+	margin: 0px;
+	margin-left: -15px;
+}
+
+#file-list li {
+	display: block;
+	font-size: 30px;
+	border-bottom: solid 1px black;
+	padding: 10px 4px 10px 10px;
+	margin-left: -10px;
+	margin-right: 5px;
+}
+
+#file-list {
+	position: absolute;
+	border: solid 1px gray;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 3;
+}
+
+.view-box {
+	width: 800px;
+	height: 600px;
+}
+
+.file-list {
+	bottom: 80px;
+	left: 80px;
+}
+
+#file-list-background {
+	position: absolute;
+	opacity: .3;
+	z-index: 2;
+	background-color: black;
+	color: white;
+}
+
+#preview {
+	position: absolute;
+	border: solid 1 black;
+	z-index: 3;
+	font-size: 30px;
+	overflow: auto;
+}
+
+#preview-background {
+	position: absolute;
+	opacity: .5;
+	border: solid 1 black;
+	z-index: 2;
+	background-color: black;
+}
+
+.preview {
+	bottom: 80px;
+	right: 100px;
+}
+
+#preview img {
+	margin: 10px;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+#preview span {
+	display: block;
+}
+
+#preview #info {
+	padding: 10px;
+}
+
+span.genre {
+	border-bottom: solid 1px black;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+#weather-forecast {
+	border: solid 1px #aaa;
+	border-radius: 5;
+	padding: 3px;
+	padding-left: 5px;
+	width: 200px;
+	display: inline;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#timeDiv {
+	border: solid 1px #aaa;
+	border-radius: 5;
+	padding: 3px;
+	padding-left: 5px;
+	width: 200px;
+	display: inline;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#path {
+	border: solid 1px #aaa;
+	border-radius: 5;
+	padding: 3px;
+	padding-left: 5px;
+	width: 400px;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+li:focus { /* color: green; */
+	text-decoration: none;
+	background-color: lightblue;
+}
+
+li.current {
+	background-color: orange;
+}
+
+
+
+.layer {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	top: 0; bottom 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: black;
+	opacity: 1.0;
+}
+
+.menu {
+	z-index: 0;	
+	display: block;
+	background-color: inherit; /* none !important; */
+}
+
+.background {
+	z-index: -10;	
+	display: block;
+	/*background-color: none !important;*/
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background iframe {
+	overflow:hidden;
+}
+
+/*
+.layerBack {
+	background-color: black;
+	opacity: 0.5;
+}
+*/
+
+.className {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -150px;
+}
